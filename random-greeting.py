@@ -7,5 +7,3 @@ greetings = ["Hey", "Hello", "Hi"]
 greeting = random.choice(greetings)
 
 print (greeting + ", " + name)
-
-
