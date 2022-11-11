@@ -1,3 +1,5 @@
+#hi 
+
 email = input("Enter your email: ").strip()
 
 username = email[:email.index('@')]
