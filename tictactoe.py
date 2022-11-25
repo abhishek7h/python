@@ -1,3 +1,5 @@
+# NOT FINISHED
+
 def printBoard(xState, zState):
     print(f' 0 | 1 | 2 ')
     print(f' --|---|---')
@@ -22,3 +24,5 @@ if __name__ == "__main__":
                 zState[value] = 1
             
             break
+
+# NOT FINISHED
