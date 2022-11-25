@@ -3,8 +3,8 @@ Contains all my Python projects. Some of these are done just to keep my brain oc
 **Have fun exploring and happy coding!**
 
 ## Interesting Projects
-number-guessing-game
-turtle-racing
-calculator
+number-guessing-game  
+turtle-racing  
+calculator  
 lost your dice? try dice-roller!
 
