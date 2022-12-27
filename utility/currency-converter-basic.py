@@ -1,7 +1,7 @@
 def bruh():
     list = ['USD', 'EUR', 'GBP', 'BTC', 'CAD', 'ETH']
     print(list)
-    currency = input("Enter the currency you want to convert to INR: ")
+    currency = input("Enter the currency you want to convert to INR: ").upper()
 
     if currency == "USD":
         usd = float(input("> Enter USD ($): "))
