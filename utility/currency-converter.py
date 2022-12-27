@@ -1,6 +1,6 @@
 import requests
 
-from_currency = str(input(" ~ Enter the currency that you'd would like to convert to: ")).upper()
+from_currency = str(input(" ~ Enter the currency that you'd would like to convert: ")).upper()
 
 to_currency = str(input(" ~ Enter the currency that you'd like to convert to: ")).upper()
 
