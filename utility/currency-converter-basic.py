@@ -29,7 +29,7 @@ def bruh():
         print(f"${cad} is ₹{inr} ")
 
     elif currency == "ETH":
-        eth = float(input("Enter Ethereum (Ξ): "))
+        eth = float(input("Enter Ether (Ξ): "))
         inr = eth * 100854.11
         print(f"Ξ{eth} is ₹{inr} ")
         
