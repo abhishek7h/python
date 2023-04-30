@@ -9,4 +9,4 @@ number-guessing-game  - games
 turtle-racing  - games  
 calculator  - math   
 lost your dice? try dice-roller! - misc
-
+try your luck by fake gambling in the slot-machine! - games (gambling is bad, i do not condone it!)
