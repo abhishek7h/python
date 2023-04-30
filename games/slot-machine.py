@@ -8,16 +8,17 @@ ROWS = 3
 COLS = 3
 
 symbol_value = {
-    "🍎": 5,
-    "🍉": 4,
-    "🍊": 3,
-    "🍒": 2,
+    "A": 5,
+    "B": 4,
+    "C": 3,
+    "D": 2,
 }
+
 
 def check_winnings(columns, lines, bet, values):
     winnings = 0
     winning_lines = []
-    for line in range(lines): 
+    for line in range(lines):
         symbol = columns[0][line]
         for column in columns:
             symbol_to_check = column[line]
@@ -28,6 +29,7 @@ def check_winnings(columns, lines, bet, values):
             winning_lines.append(line + 1)
 
     return winnings, winning_lines
+
 
 def get_slot_machine_spin(rows, cols, symbols):
     all_symbols = []
@@ -104,6 +106,7 @@ def get_bet():
 
     return amount
 
+
 def spin(balance):
     lines = get_number_of_lines()
     while True:
@@ -126,6 +129,7 @@ def spin(balance):
     print(f"You won on lines: ", *winning_lines)
     return winnings - total_bet
 
+
 def main():
     balance = deposit()
     while True:
@@ -133,10 +137,9 @@ def main():
         answer = input("Press enter to play (q to quit) ")
         if answer == "q":
             break
-        balance += spin(balance) 
-    
+        balance += spin(balance)
+
     print(f"You left with ${balance}.")
-    
 
 
 main()
