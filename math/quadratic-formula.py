@@ -4,8 +4,8 @@ a = int(input("Enter a: "))
 b = int(input("Enter b: "))
 c = int(input("Enter c: "))
 
-quadraticFormulaPlus = -b + math.sqrt(b*b - 4*a*c)
-quadraticFormulaMinus = -b - math.sqrt(b*b - 4*a*c)
+quadraticFormulaPlus = -b + math.sqrt(b*b - 4*a*c)/2*a
+quadraticFormulaMinus = -b - math.sqrt(b*b - 4*a*c)/2*a
 qfp2 = quadraticFormulaPlus/2
 qfm2 = quadraticFormulaMinus/2
 # qfp22 = qfp2/2
