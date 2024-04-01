@@ -2,7 +2,7 @@ def main():
 
     bday = int(input('In which year were you born? '))
 
-    age = 2023 - bday
+    age = 2024 - bday
 
     print(f'You are {age} years old.')
 
